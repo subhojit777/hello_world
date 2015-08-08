@@ -1,0 +1,7 @@
+hello_world.admin:
+  path: '/admin/config/content/hello-world'
+  defaults:
+    _form: '\Drupal\hello_world\Form\HelloWorldConfigForm'
+    _title: 'Configuration form'
+  requirements:
+    _access: 'TRUE'

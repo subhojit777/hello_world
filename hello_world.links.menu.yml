@@ -1,0 +1,5 @@
+# Drupal 8 hello_world.links.menu.yml snippet
+hello_world.admin:
+  title: 'Configure hello world'
+  route_name: hello_world.admin
+  parent: system.admin_config_content
